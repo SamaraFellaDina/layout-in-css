@@ -3,14 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Advanced Layout 3</title>
+    <title>Advanced Layout 1</title>
     <link rel="stylesheet" href="../style.css" />
     <style>
-      /* Doe hier jouw ding! */
-    </style>
+      body {
+        display: grid;
+        grid-gap: .5rem;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: .5fr 1fr 1fr 1fr .5fr;
+      grid-template-areas: 
+      ". middle middle middle"
+      "top middle middle middle"
+      "left middle middle middle"
+      "bottom middle middle middle"
+      ". middle middle middle"
+      }
+
+      header{
+        grid-area: top;
+        margin-right: -10em;
+        z-index: 1;
+      }
+
+      nav {
+        grid-area: left;
+        margin-right: -10em;
+        z-index: 1;
+
+      }
+
+      main {
+        grid-area: middle;
+
+      }
+
+      footer{
+        grid-area: bottom;
+        margin-right: -10em;
+        z-index: 1;
+
+        }
+      </style>
   </head>
   <body id="advanced-layout-3">
-    <header><h1>Advanced Layout 3</h1></header>
+    <header><h1>Advanced Layout 1</h1></header>
     <nav><a href="../index.html">Terug naar het overzicht</a></nav>
     <main></main>
     <footer></footer>
