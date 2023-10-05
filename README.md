@@ -4,6 +4,7 @@ De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 # Layout in CSS
 
 Hier kan je alle ontwerpen vinden voor de deeltaak https://samarafelladina.github.io/layout-in-css/src/
+
 Hier kan je het gehele proces (de development cycle) die ik ben doorgelopen https://github.com/SamaraFellaDina/layout-in-css/wiki/Deeltaak-2-(1.4.3)
 
 ## Licentie
