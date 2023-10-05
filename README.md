@@ -3,7 +3,7 @@ De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # Layout in CSS
 
-Een oefening in document layout met CSS.
+Hier kan je alle ontwerpen vinden voor de deeltaak https://samarafelladina.github.io/layout-in-css/src/
 
 ## Licentie
 
